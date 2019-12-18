@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 
 public class RestExchangeRateLoader implements ExchangeRateLoader {
     
-    private final String url = "https://api.exchangerate-api.com/v4/latest/USD";
+    private final String url = "https://api.exchangerate-api.com/v4/latest/EUR";
 
     @Override
     public List<ExchangeRate> load() {
